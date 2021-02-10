@@ -77,7 +77,7 @@ export default {
     },
 
     minus() {
-      this.operator = (a,b) => a - b;
+      this.operator = (a,b) => b -a ;
       this.setPrevious();
     },
 
@@ -98,7 +98,6 @@ export default {
 
   } 
 </script>
-
 
 <style scoped>
   .calculator{
